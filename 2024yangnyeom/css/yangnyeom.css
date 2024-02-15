@@ -1,0 +1,641 @@
+.display-none {
+  display: none !important; }
+
+@media screen and (max-width: 430px) {
+  .display-none-s {
+    display: none !important; } }
+@media screen and (min-width: 431px) {
+  .display-none-l {
+    display: none !important; } }
+/* ZenKakuGothic */
+@font-face {
+  font-family: "ZenKakuGothic";
+  src: url("../fonts/ZenKakuGothic.ttf") format("ttf"), url("../fonts/ZenKakuGothic.eot") format("eot"), url("../fonts/ZenKakuGothic.woff") format("woff"), url("../fonts/ZenKakuGothic.woff2") format("woff2"); }
+.yangnyeom {
+  width: 100%;
+  max-width: 430px;
+  background-color: #fff;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.35);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "ZenKakuGothic", sans-serif;
+  margin: 0 auto; }
+  .yangnyeom h2, .yangnyeom h3, .yangnyeom p, .yangnyeom a, .yangnyeom em, .yangnyeom span, .yangnyeom small, .yangnyeom button {
+    line-height: 100%;
+    display: block; }
+  .yangnyeom * {
+    box-sizing: border-box; }
+  .yangnyeom img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block; }
+  .yangnyeom #cm > a {
+    margin: 0 auto;
+    width: 89.5%; }
+  .yangnyeom a {
+    text-decoration: none;
+    transition: all .2s; }
+    .yangnyeom a:hover {
+      opacity: 0.8; }
+  .yangnyeom .wrapper {
+    width: 89.5%;
+    margin: 0 auto; }
+  .yangnyeom .bg {
+    width: 100%;
+    height: 100vh;
+    background: url("../img/bg.jpg") repeat-y;
+    background-size: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1; }
+    @media screen and (max-width: 430px) {
+      .yangnyeom .bg {
+        display: none; } }
+    .yangnyeom .bg div {
+      width: calc(50% - 215px);
+      height: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      align-content: center;
+      position: absolute;
+      top: 0; }
+      .yangnyeom .bg div p {
+        width: 100%; }
+        .yangnyeom .bg div p img {
+          width: auto;
+          max-width: none;
+          position: relative;
+          left: 50%;
+          -webkit-transform: translateX(-50%);
+          transform: translateX(-50%); }
+        .yangnyeom .bg div p:nth-of-type(1) img {
+          height: 3.9vw;
+          max-height: 50px; }
+        .yangnyeom .bg div p:nth-of-type(2) img {
+          height: 7.8vw;
+          max-height: 100px; }
+      .yangnyeom .bg div > img {
+        width: 60%;
+        max-width: 255px;
+        margin: 0 auto 5%; }
+      .yangnyeom .bg div:nth-of-type(1) {
+        left: 0; }
+      .yangnyeom .bg div:nth-of-type(2) {
+        right: 0; }
+
+.yangnyeom header {
+  height: 16vw;
+  max-height: 70px;
+  padding: 0 3% 0 4.5%;
+  box-shadow: none;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between; }
+  .yangnyeom header > a {
+    width: 14%; }
+  .yangnyeom header ul {
+    width: 56.5%;
+    display: flex;
+    align-items: center;
+    align-content: center; }
+    .yangnyeom header ul li {
+      width: calc(100% / 6);
+      padding: 0 1.5%; }
+
+.yangnyeom footer {
+  padding: 4.5% 0 5%;
+  border: none; }
+  .yangnyeom footer a {
+    width: 18.5%;
+    margin: 0 auto 14.5%; }
+  .yangnyeom footer p {
+    font-size: 2.6vw;
+    font-weight: bold;
+    text-align: center;
+    color: #010101; }
+    @media screen and (min-width: 431px) {
+      .yangnyeom footer p {
+        font-size: 11px; } }
+
+.yangnyeom #mv {
+  background-color: #020d39; }
+  .yangnyeom #mv .slider {
+    height: 133.5vw;
+    max-height: 575px;
+    line-height: 0;
+    margin-bottom: -5vw;
+    overflow: hidden; }
+    @media screen and (min-width: 431px) {
+      .yangnyeom #mv .slider {
+        margin-bottom: -25px; } }
+    .yangnyeom #mv .slider .slick-dots {
+      display: flex;
+      position: absolute;
+      bottom: 0;
+      left: 4%; }
+      .yangnyeom #mv .slider .slick-dots li {
+        margin: 0 30%; }
+        .yangnyeom #mv .slider .slick-dots li button {
+          width: 2vw;
+          height: 2vw;
+          background-color: #ffeba6;
+          border-radius: 50%;
+          color: transparent; }
+          @media screen and (min-width: 431px) {
+            .yangnyeom #mv .slider .slick-dots li button {
+              width: 9px;
+              height: 9px; } }
+        .yangnyeom #mv .slider .slick-dots li.slick-active button {
+          background-color: #f9d148; }
+
+.yangnyeom #cm {
+  padding: 7.5% 0 7.5%;
+  background: #020d39 url("../img/cm_bg01.png") no-repeat;
+  background-size: 100%;
+  background-position: top; }
+  .yangnyeom #cm h2 {
+    width: 65%;
+    margin: 0 auto 8%; }
+  .yangnyeom #cm .btn {
+    width: 100%;
+    max-width: 430px;
+    position: fixed;
+    bottom: 3%;
+    left: 50%;
+    z-index: 999;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    overflow: hidden;
+    margin: 0; }
+    .yangnyeom #cm .btn a {
+      width: 50%;
+      margin-left: auto;
+      position: relative;
+      right: -50%;
+      transition: all .5s; }
+    .yangnyeom #cm .btn.active a {
+      right: 0; }
+    .yangnyeom #cm .btn.passive a {
+      right: -50%; }
+  .yangnyeom #cm p {
+    font-size: 3.6vw;
+    font-weight: bold;
+    line-height: 7.1vw;
+    text-align: center;
+    text-shadow: 0 0 1.3vw #f96900,0 0 1.3vw #f96900;
+    color: #fff; }
+    @media screen and (min-width: 431px) {
+      .yangnyeom #cm p {
+        font-size: 16px;
+        line-height: 31px;
+        text-shadow: 0 0 6px #f96900,0 0 6px #f96900; } }
+  .yangnyeom #cm > div:not(.btn):not(.modal) {
+    padding-top: 2%;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+    position: relative; }
+    .yangnyeom #cm > div:not(.btn):not(.modal) h3 img {
+      width: auto;
+      max-width: none;
+      height: 8.8vw;
+      max-height: 38px;
+      margin: 0 auto; }
+    .yangnyeom #cm > div:not(.btn):not(.modal) button {
+      width: 71%;
+      margin: 4.5% auto 0; }
+    .yangnyeom #cm > div:not(.btn):not(.modal):after {
+      content: "";
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      position: absolute;
+      pointer-events: none; }
+    .yangnyeom #cm > div:not(.btn):not(.modal)#cm1 {
+      padding-bottom: 8%;
+      background-image: url("../img/cm_bg02.png");
+      margin-top: 16.5%; }
+      .yangnyeom #cm > div:not(.btn):not(.modal)#cm1:after {
+        width: 13.5%;
+        height: 21.5%;
+        background-image: url("../img/cm_icon01.png");
+        top: -13.5%;
+        left: 3.5%; }
+      .yangnyeom #cm > div:not(.btn):not(.modal)#cm1 .modal .wrapper {
+        max-width: 665px; }
+        .yangnyeom #cm > div:not(.btn):not(.modal)#cm1 .modal .wrapper .movie_box {
+          height: 0;
+          padding-bottom: 56.25%;
+          position: relative;
+          overflow: hidden; }
+          .yangnyeom #cm > div:not(.btn):not(.modal)#cm1 .modal .wrapper .movie_box iframe {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0; }
+    .yangnyeom #cm > div:not(.btn):not(.modal)#cm2 {
+      padding-bottom: 11.5%;
+      background-image: url("../img/cm_bg03.png");
+      margin-top: 11%;
+      margin-bottom: 20%; }
+      .yangnyeom #cm > div:not(.btn):not(.modal)#cm2 button {
+        margin-top: 6%; }
+      .yangnyeom #cm > div:not(.btn):not(.modal)#cm2:after {
+        width: 16.5%;
+        height: 12.5%;
+        background-image: url("../img/cm_icon02.png");
+        right: 2%;
+        bottom: -13%; }
+      .yangnyeom #cm > div:not(.btn):not(.modal)#cm2 .modal .wrapper {
+        max-width: 375px; }
+        .yangnyeom #cm > div:not(.btn):not(.modal)#cm2 .modal .wrapper .movie_box {
+          width: 100%;
+          line-height: 0;
+          aspect-ratio: 9/16; }
+  .yangnyeom #cm .modal {
+    display: none;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999; }
+    .yangnyeom #cm .modal .wrapper {
+      width: 87%;
+      position: relative;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      transform: translateY(-50%); }
+      .yangnyeom #cm .modal .wrapper .movie_box iframe {
+        width: 100%;
+        height: 100%; }
+    .yangnyeom #cm .modal .close {
+      width: 8vw;
+      max-width: 35px;
+      position: absolute;
+      top: 6.7vw;
+      right: 6.7vw;
+      cursor: pointer; }
+      @media screen and (min-width: 431px) {
+        .yangnyeom #cm .modal .close {
+          top: 30px;
+          right: 30px; } }
+    .yangnyeom #cm .modal .overlay {
+      width: 100%;
+      height: 100%;
+      background-color: #020d39;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1; }
+
+.yangnyeom #campaign {
+  padding: 14.5% 0 13.5%;
+  background: url("../img/bg.jpg") repeat-y;
+  background-size: 100%; }
+  .yangnyeom #campaign .wrapper {
+    font-weight: bold;
+    color: #480e00; }
+    .yangnyeom #campaign .wrapper ul {
+      padding: 0 11%;
+      margin: 6.5% 0 9.5%; }
+      .yangnyeom #campaign .wrapper ul li {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: center;
+        justify-content: space-between;
+        margin-bottom: 4.5%; }
+        .yangnyeom #campaign .wrapper ul li h3 {
+          width: 100%;
+          padding-bottom: 2%;
+          border-bottom: 0.3vw #480e00 solid;
+          font-size: 4.8vw;
+          text-align: center;
+          letter-spacing: 0.1em;
+          text-indent: 0.1em;
+          margin-bottom: 1.5%; }
+          @media screen and (min-width: 431px) {
+            .yangnyeom #campaign .wrapper ul li h3 {
+              border-width: 1px;
+              font-size: 21px; } }
+        .yangnyeom #campaign .wrapper ul li img {
+          width: 31.5%; }
+        .yangnyeom #campaign .wrapper ul li p {
+          width: 65.5%;
+          font-size: 3.2vw;
+          line-height: 5.1vw; }
+          @media screen and (min-width: 431px) {
+            .yangnyeom #campaign .wrapper ul li p {
+              font-size: 14px;
+              line-height: 22px; } }
+          .yangnyeom #campaign .wrapper ul li p a {
+            text-decoration: underline;
+            color: #6c6c6c;
+            display: inline-block; }
+        .yangnyeom #campaign .wrapper ul li:last-child {
+          margin: 0; }
+    .yangnyeom #campaign .wrapper > img {
+      padding: 0 6.5%; }
+    .yangnyeom #campaign .wrapper > small {
+      font-size: 2.9vw;
+      line-height: 4vw;
+      text-align: center;
+      margin: 5% 0 10%; }
+      @media screen and (min-width: 431px) {
+        .yangnyeom #campaign .wrapper > small {
+          font-size: 12px;
+          line-height: 17px; } }
+    .yangnyeom #campaign .wrapper > div {
+      height: 28vw;
+      max-height: 120px;
+      padding: 2.5% 2.5% 2.5% 3%;
+      background-color: #f0f5fa;
+      margin-top: 9%;
+      overflow-y: scroll; }
+      .yangnyeom #campaign .wrapper > div p {
+        font-size: 2.9vw;
+        line-height: 4.3vw;
+        color: #6c6c6c; }
+        @media screen and (min-width: 431px) {
+          .yangnyeom #campaign .wrapper > div p {
+            font-size: 13px;
+            line-height: 18px; } }
+        .yangnyeom #campaign .wrapper > div p a {
+          text-decoration: underline;
+          display: inline-block; }
+      .yangnyeom #campaign .wrapper > div::-webkit-scrollbar {
+        width: 1.1vw;
+        max-width: 4px; }
+      .yangnyeom #campaign .wrapper > div::-webkit-scrollbar-track {
+        background-color: #babdc0; }
+      .yangnyeom #campaign .wrapper > div::-webkit-scrollbar-thumb {
+        background-color: #6c6c6c; }
+
+.yangnyeom #sample {
+  padding: 10% 0 23%;
+  background: url("../img/bg.jpg") repeat-y;
+  background-size: 100%;
+  color: #010101; }
+  .yangnyeom #sample h2 {
+    width: 100vw;
+    max-width: 430px;
+    position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%); }
+  .yangnyeom #sample .cont1 {
+    margin-bottom: 13%; }
+    .yangnyeom #sample .cont1 h3 {
+      font-size: 3.8vw;
+      margin: 7.5% 0; }
+      @media screen and (min-width: 431px) {
+        .yangnyeom #sample .cont1 h3 {
+          font-size: 16px; } }
+    .yangnyeom #sample .cont1 em, .yangnyeom #sample .cont1 p {
+      font-weight: bold;
+      text-align: center; }
+    .yangnyeom #sample .cont1 em {
+      font-size: 5.6vw;
+      letter-spacing: 0.2em;
+      text-indent: 0.2em; }
+      @media screen and (min-width: 431px) {
+        .yangnyeom #sample .cont1 em {
+          font-size: 24px; } }
+    .yangnyeom #sample .cont1 p {
+      font-size: 3.9vw;
+      line-height: 4.8vw;
+      margin: 8.5% 0 12%; }
+      @media screen and (min-width: 431px) {
+        .yangnyeom #sample .cont1 p {
+          font-size: 17px;
+          line-height: 21px; } }
+      .yangnyeom #sample .cont1 p small {
+        font-size: 3.3vw;
+        margin-top: 0.5%; }
+        @media screen and (min-width: 431px) {
+          .yangnyeom #sample .cont1 p small {
+            font-size: 14px; } }
+    .yangnyeom #sample .cont1 small {
+      font-size: 3.6vw;
+      line-height: 4.8vw; }
+      @media screen and (min-width: 431px) {
+        .yangnyeom #sample .cont1 small {
+          font-size: 15px;
+          line-height: 21px; } }
+  .yangnyeom #sample .cont2 {
+    padding: 0 6.5%;
+    font-weight: bold;
+    color: #231815; }
+    .yangnyeom #sample .cont2 h3 {
+      font-size: 4vw;
+      margin: 0 0 5% -3%; }
+      @media screen and (min-width: 431px) {
+        .yangnyeom #sample .cont2 h3 {
+          font-size: 17px; } }
+    .yangnyeom #sample .cont2 dl {
+      font-size: 3.6vw; }
+      @media screen and (min-width: 431px) {
+        .yangnyeom #sample .cont2 dl {
+          font-size: 16px; } }
+      .yangnyeom #sample .cont2 dl dt {
+        padding: 0 5%;
+        background-color: #f9f8c6;
+        line-height: 8vw; }
+        @media screen and (min-width: 431px) {
+          .yangnyeom #sample .cont2 dl dt {
+            line-height: 35px; } }
+      .yangnyeom #sample .cont2 dl dd {
+        line-height: 6.6vw;
+        margin: 3% 0; }
+        @media screen and (min-width: 431px) {
+          .yangnyeom #sample .cont2 dl dd {
+            line-height: 28px; } }
+        .yangnyeom #sample .cont2 dl dd a {
+          text-decoration: underline;
+          color: #231815;
+          display: inline-block; }
+        .yangnyeom #sample .cont2 dl dd:last-of-type {
+          margin-bottom: 0; }
+
+.yangnyeom #menu > div {
+  background-color: #fff4cd;
+  color: #fd7a23; }
+  .yangnyeom #menu > div .wrapper h2 {
+    font-size: 7.2vw;
+    letter-spacing: 0.1em;
+    text-indent: 0.1em;
+    position: relative;
+    margin-bottom: 19.5%; }
+    @media screen and (min-width: 431px) {
+      .yangnyeom #menu > div .wrapper h2 {
+        font-size: 31px; } }
+    .yangnyeom #menu > div .wrapper h2:after {
+      content: "";
+      width: 50%;
+      height: 0.4vw;
+      max-height: 2px;
+      background-color: #fd7a23;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+      pointer-events: none; }
+  .yangnyeom #menu > div .wrapper ul {
+    display: flex;
+    align-items: center;
+    align-content: center; }
+    .yangnyeom #menu > div .wrapper ul li {
+      margin-right: 3%; }
+      .yangnyeom #menu > div .wrapper ul li.type1 {
+        width: 19.5%; }
+      .yangnyeom #menu > div .wrapper ul li.type2 {
+        width: 13.5%; }
+      .yangnyeom #menu > div .wrapper ul li.type3 {
+        width: 22.5%; }
+  .yangnyeom #menu > div .wrapper > img {
+    width: 86.5%;
+    margin: -10.5% auto 3.5%; }
+  .yangnyeom #menu > div .wrapper h3 {
+    width: 100%; }
+  .yangnyeom #menu > div .wrapper .price {
+    width: 19.5%;
+    margin: -7% 0 5.5% auto; }
+  .yangnyeom #menu > div .wrapper p {
+    font-size: 3.8vw;
+    font-weight: bold;
+    line-height: 5.9vw; }
+    @media screen and (min-width: 431px) {
+      .yangnyeom #menu > div .wrapper p {
+        font-size: 16px;
+        line-height: 25px; } }
+  .yangnyeom #menu > div .wrapper > small {
+    font-size: 2.9vw;
+    line-height: 4.5vw;
+    margin-bottom: 5%; }
+    @media screen and (min-width: 431px) {
+      .yangnyeom #menu > div .wrapper > small {
+        font-size: 13px;
+        line-height: 20px; } }
+  .yangnyeom #menu > div.cont1 .wrapper > small, .yangnyeom #menu > div.cont2 .wrapper > small {
+    font-size: 3.6vw;
+    line-height: 4.9vw;
+    margin-top: 5.5%; }
+    @media screen and (min-width: 431px) {
+      .yangnyeom #menu > div.cont1 .wrapper > small, .yangnyeom #menu > div.cont2 .wrapper > small {
+        font-size: 16px;
+        line-height: 21px; } }
+  .yangnyeom #menu > div.cont1 {
+    padding: 20% 0 14.5%;
+    background-color: #e94829; }
+    .yangnyeom #menu > div.cont1 h2 {
+      color: #ffeba6;
+      margin-bottom: 13%; }
+      .yangnyeom #menu > div.cont1 h2:after {
+        background-color: #ffeba6; }
+    .yangnyeom #menu > div.cont1 small {
+      color: #ffeba6; }
+    .yangnyeom #menu > div.cont1 p {
+      color: #fff; }
+  .yangnyeom #menu > div.cont2 {
+    padding: 19.5% 0 14.5%;
+    background-color: #fcbc32; }
+    .yangnyeom #menu > div.cont2 small {
+      color: #8b4800; }
+    .yangnyeom #menu > div.cont2 p {
+      color: #cd401b; }
+  .yangnyeom #menu > div.cont3 {
+    padding-top: 14%; }
+  .yangnyeom #menu > div.cont4 {
+    padding: 15% 0 15%; }
+    .yangnyeom #menu > div.cont4 .price {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      margin: 6% 0 4.5%; }
+      .yangnyeom #menu > div.cont4 .price img {
+        width: 29.5%; }
+  .yangnyeom #menu > div.cont1 > div > a ,.yangnyeom #menu > div.cont2 > div > a ,.yangnyeom #menu > div.cont3 > div > a ,.yangnyeom #menu > div.cont4 > div > a {
+    margin-top: 50px;
+  }
+.yangnyeom #netorder {
+  margin-bottom: 26%; }
+  .yangnyeom #netorder ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 7% 0 10.5%; }
+    .yangnyeom #netorder ul li {
+      width: 50%;
+      padding-right: 3%;
+      margin-top: 6%; }
+      .yangnyeom #netorder ul li p {
+        height: 10.4vw;
+        max-height: 44px;
+        font-size: 3.9vw;
+        font-weight: bold;
+        line-height: 5.2vw;
+        text-align: center;
+        color: #41210f;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        margin-top: -7%; }
+        @media screen and (min-width: 431px) {
+          .yangnyeom #netorder ul li p {
+            font-size: 17px;
+            line-height: 22px; } }
+
+.yangnyeom #ec {
+  padding: 9.5% 0 7%;
+  background-color: #d9f5df;
+  position: relative; }
+  .yangnyeom #ec:after {
+    content: "";
+    width: 100%;
+    height: 16vw;
+    background: url("../img/ec_bg.png") no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: -16vw;
+    left: 0;
+    pointer-events: none; }
+    @media screen and (min-width: 431px) {
+      .yangnyeom #ec:after {
+        height: 70px;
+        top: -70px; } }
+  .yangnyeom #ec h2 {
+    width: 77.5%;
+    margin: 0 auto; }
+  .yangnyeom #ec p {
+    width: 106%;
+    font-size: 3.7vw;
+    font-weight: bold;
+    line-height: 5.9vw;
+    text-align: center;
+    color: #00d700;
+    margin: 6.5% -3% 4%; }
+    @media screen and (min-width: 431px) {
+      .yangnyeom #ec p {
+        font-size: 16px;
+        line-height: 26px; } }
+  .yangnyeom #ec a {
+    margin: 7.5% 0 10.5%; }
+  .yangnyeom #ec small {
+    width: 106%;
+    font-size: 2vw;
+    line-height: 3.6vw;
+    text-align: center;
+    color: #7a8769;
+    margin: 0 -3%; }
+    @media screen and (min-width: 431px) {
+      .yangnyeom #ec small {
+        font-size: 9px;
+        line-height: 15px; } }
+
+/*# sourceMappingURL=yangnyeom.css.map */
